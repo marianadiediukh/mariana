@@ -1,0 +1,8 @@
+files:
+  - source: '*'
+    ignore:
+      - '*csv'
+    translation: /%two_letters_code%/%original_file_name%
+    languages_mapping:
+      two_letters_code:
+        fr: France
